@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.not_found {
+    font-family: 'StratosSkyeng', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.not_found_404 {
+    width: 255px;
+    height: 168px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 168px;
+    color: #FFFFFF;
+}
+
+.page_not_found {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-family: 'StratosSkyeng', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.not_found_info {
+    width: 431px;
+    height: 48px;
+    font-family: 'StratosSkyeng', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #4E4E4E;
+}

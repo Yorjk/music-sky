@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+    display: flex;
+    padding-top: 160px;
+    justify-content: center;
+}
+
+.registration_logo {
+    padding-bottom: 20px;
+}
+
+.registration {
+    width: 366px;
+    height: 439px;
+    left: 777px;
+    top: 320.5px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.registration_input {
+    width: 278.5px;
+    border: none;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 0 5px 8px 5px;
+    outline: none;
+}
+
+.registration_input::placeholder {
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.003em;font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E1E1E1;
+    padding: 0 0 8px 0;
+}
+
+.password_input {
+    margin-top: 20px;
+}
+
+.login_button {
+    width: 278px;
+    height: 52px;
+    background: #580EA2;
+    border-radius: 6px;
+    border: none;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.003em;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.login_button:hover {
+    background: #3F007D;
+}
+
+.registration_button {
+    width: 278px;
+    height: 52px;
+    border: 1px solid #D0CECE;
+    border-radius: 6px;
+    background: #ffffff;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.003em;
+    color: #000000;
+}
+
+.registration_button:hover {
+    background: #F4F5F6;
+}

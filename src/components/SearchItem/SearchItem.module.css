@@ -1,0 +1,33 @@
+button,
+._btn {
+  cursor: pointer;
+}
+
+._btn_text:hover {
+    border-color: var(----color_searchItem_hover);
+    color: var(----color_searchItem_hover);
+    cursor: pointer;
+  }
+
+  ._btn_text:active {
+    border-color: #AD61FF;
+    color: #AD61FF;
+    cursor: pointer;
+  }
+
+.filter__button {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid var(--color);
+    border-radius: 60px;
+    padding: 6px 20px;
+  }
+  
+  .filter__button:not(:last-child) {
+    margin-right: 10px;
+  }
